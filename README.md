@@ -1,5 +1,6 @@
 Penjelasan Terkait Tugas : 
 ✨ Fitur Tambahan: Filter Tampilan Tugas (Latihan 12)
+
 ✅ Deskripsi Fitur
 
 Fitur ini memungkinkan pengguna untuk memfilter daftar To-Do berdasarkan status tugas:
@@ -9,6 +10,7 @@ Selesai: Hanya menampilkan tugas yang sudah ditandai selesai.
 Belum Selesai: Hanya menampilkan tugas yang belum selesai.
 
 🛠️ Perubahan yang Dilakukan
+
 1. HTML (Thymeleaf Template) – index.html
 Ditambahkan elemen navigasi filter:
 
@@ -64,6 +66,7 @@ List<ToDo> findByCompleted(boolean completed);
 🧪 Hasil Saat Dijalankan
 
 Setelah aplikasi dijalankan, halaman utama akan menampilkan 3 link di bagian atas:
+
 [Semua] | [Selesai] | [Belum Selesai]
 
 Klik Semua akan menampilkan seluruh tugas.
