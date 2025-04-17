@@ -20,6 +20,7 @@ Ditambahkan elemen navigasi filter:
     <a href="/" th:href="@{/?filter=incomplete}">Belum Selesai</a>
 </div>
 
+
 2. Controller – ToDoController.java
    
 Modifikasi method home() agar bisa menangani query filter dari URL:
